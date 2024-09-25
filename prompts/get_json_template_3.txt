@@ -1,0 +1,39 @@
+{
+  "issue_type": {
+    "value": "",
+    "options": ["technical_issue", "academic_complaint", "rostering_request", "test_scheduling_request", "course_change_request", "other", "not_applicable", "unknown"],
+    "comment": "Classify the main issue of the ticket. If none of the options apply, choose 'other'. Use 'not_applicable' if the issue type is irrelevant, and 'unknown' if the issue type is unclear."
+  },
+  "connected_students": {
+    "value": [],
+    "comment": "List the names of students connected to this issue. Use 'not_applicable' if no students are connected, and 'unknown' if the information is not provided."
+  },
+  "connected_student_guides": {
+    "value": [],
+    "comment": "List the names of student guides connected to this issue. Use 'not_applicable' if no student guides are connected, and 'unknown' if the information is not provided."
+  },
+  "connected_learning_apps": {
+    "value": [],
+    "comment": "List the learning apps connected to this issue. Use 'not_applicable' if no learning apps are connected, and 'unknown' if the information is not provided."
+  },
+  "connected_courses": {
+    "value": [],
+    "comment": "Specify the full course names connected to this issue. Use 'not_applicable' if no specific courses are connected, and 'unknown' if the information is not provided."
+  },
+  "connected_subjects": {
+    "value": "",
+    "options": ["Math", "Reading", "Language", "Science", "Social Science", "not_applicable", "unknown"],
+    "comment": "Indicate the subject connected to this issue. Choose from the provided options. Use 'not_applicable' if no subjects are connected, and 'unknown' if the information is not provided."
+  },
+  "high_school_connection": {
+    "value": "",
+    "options": [
+      "High School student",
+      "High School guide",
+      "neither",
+      "not_applicable",
+      "unknown"
+    ],
+    "comment": "Confirm if the ticket is for a High School student or guide. Check against the provided High School students and guides names in the ticket details to make the selection. Use 'neither' if it does not apply to either, 'not_applicable' if this information is irrelevant, and 'unknown' if the information is not provided."
+  }
+}

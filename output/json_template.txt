@@ -1,0 +1,78 @@
+{
+  "Ticket Summary": {
+    "value": "",
+    "comment": "Provide a very short summary of the ticket, capturing the essence of the issue or request."
+  },
+  "Solution Summary": {
+    "value": "",
+    "comment": "Provide a very short summary of the solution or the current status of the ticket if not yet resolved."
+  },
+  "Category": {
+    "value": "",
+    "options": [
+      "Data discrepancy > Time tracking > Time was not tracked > Solved by waiting (sync delay)",
+      "Data discrepancy > Time tracking > Time was not tracked > Solved by Engineering",
+      "Data discrepancy > Time tracking > Time was not tracked > Extension was not running and other Chrome issues",
+      "Data discrepancy > Time tracking > Time is less than expected or the app shows",
+      "Data discrepancy > Accuracy, Mastery tracking > Accuracy and mastery were not tracked > Solved by waiting (sync delay)",
+      "Data discrepancy > Accuracy, Mastery tracking > Accuracy and mastery were not tracked > Solved by Engineering",
+      "Data discrepancy > Accuracy, Mastery tracking > Accuracy and mastery were not tracked > Extension was not running and other Chrome issues",
+      "Data discrepancy > Accuracy, Mastery tracking > Mastery or accuracy are not as expected or as the app shows > Unit was already mastered (remastery)",
+      "Data discrepancy > Accuracy, Mastery tracking > Mastery or accuracy are not as expected or as the app shows > Working on the wrong skill",
+      "Data discrepancy > Accuracy, Mastery tracking > Mastery or accuracy are not as expected or as the app shows > Student was not logged in or had a wrong username",
+      "Data discrepancy > Accuracy, Mastery tracking > Mastery or accuracy are not as expected or as the app shows > Content is not meant to be tracked for this application",
+      "Data discrepancy > Accuracy, Mastery tracking > Mastery or accuracy are not as expected or as the app shows > Other",
+      "Data discrepancy > Other mastery test and test issues",
+      "Data discrepancy > Other",
+      "Learning app issues and complaints > App is disliked > Student wants to change the app",
+      "Learning app issues and complaints > App is disliked > App content is too easy or too hard",
+      "Learning app issues and complaints > App is disliked > App is confusing",
+      "Learning app issues and complaints > App is disliked > Other feedback",
+      "Learning app issues and complaints > Technical or access issues with the app",
+      "Learning app issues and complaints > IXL diagnostics",
+      "Learning app issues and complaints > Other",
+      "Academics issues > Testing requests",
+      "Academics issues > Student is struggling > Scaffolding, knowledge gap, or supporting skills and recommendations",
+      "Academics issues > Student is struggling > Grade level changed",
+      "Academics issues > Student is struggling > App changed",
+      "Academics issues > Other requests > Onboarding",
+      "Academics issues > Other requests > Rostering",
+      "Academics issues > Other requests > Level change",
+      "Academics issues > Other requests > Remove or add scaffolding, knowledge gap, or supporting skills",
+      "Academics issues > Other deep-dive requests",
+      "Academics issues > Other",
+      "Technical issues with recommendations > Recommendations are not being removed",
+      "Technical issues with recommendations > Recommendations are not being added",
+      "Technical issues with recommendations > Recommendations are incorrect",
+      "Technical issues with recommendations > Check Chart issues",
+      "Technical issues with recommendations > Other",
+      "Other requests > Privacy and consent related-requests",
+      "Other requests > QuickSight issues and changes",
+      "Other requests > 2h overrides",
+      "Other requests > Other issues with Dash",
+      "Other requests > Other",
+      "Other requests > Anti Patterns",
+      "Unknown"
+    ],
+    "comment": "Select the most appropriate category for the problem from the provided options. If the problem does not fit any of the categories, or if the category is unknown, use 'Unknown'. Note: Dash, StudyReel, Coachbot, and GT Schools are part of the platform and not learning apps."
+  },
+  "Students": {
+    "value": "",
+    "comment": "List the names of students connected to this issue, if any. Use 'Not applicable' if no students are connected, and 'Unknown' if the information is not provided."
+  },
+  "Learning App": {
+    "value": "",
+    "options": ["IXL", "CommonLit", "Khan Academy", "Knewton", "Newsela", "Jenga", "Reading Recommender", "Alpha Flashcard", "Edulastic", "XtraMath", "Synthesis Tutor", "Outlier", "Ultimate Review Packet", "AlphaRead", "SudyReel", "Amplify", "AlphaWrite", "Duolingo", "eGUMPP", "ReadTheory", "Codecademy", "Renaissance", "ProjectRead", "Subject", "Straighter Line", "Spell Quiz", "Multiple apps", "Other", "Not Applicable"],
+    "comment": "Select the learning app connected to this issue, if any. Where multiple apps are involved, select the main app causing the issue. Exclude Dash, StudyReel, Coachbot, and GT Schools as they are not considered learning apps. Use 'Not applicable' if no learning apps are connected, and 'Other' if the app is not listed. If multiple apps are related to the issue without a clear main app, select 'Multiple Apps'"
+  },
+  "Academic Subject": {
+    "value": "",
+    "options": ["Math", "Reading", "Language", "Science", "Social Science", "Not applicable", "Unknown"],
+    "comment": "Indicate the subject(s) connected to this issue. Choose from 'Math', 'Reading', 'Language', 'Science', 'Social Science'. Use 'Not applicable' if the subject is irrelevant, and 'Unknown' if the subject is not provided."
+  },
+
+    "Requester sentiment": {
+    "value": "",
+    "comment": "Analyze the ticket's requester (usually, the user who sent the first comment) sentiment on a scale of -1 to 1. With -1 being extremely negative, and 1 being extremely positive"
+  }
+}

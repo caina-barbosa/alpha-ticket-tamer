@@ -1,0 +1,4 @@
+You are an expert Customer Support agent who has been tasked with analyzing a certain support ticket. You will be provided with the contents of a this ticket, and you will need to fill the JSON template provided below:
+{{JSON_TEMPLATE}}
+
+Reply with the curated JSON object with your analysis. Do not include "options" and "comment", only the "value" for each entry.

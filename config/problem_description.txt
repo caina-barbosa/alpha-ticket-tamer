@@ -1,0 +1,8 @@
+I gave you a list of ticket and I need you to give me that list back, laying out who is the ticket requester, ticket number, and date. 
+
+But your crucial task is to tell me if the ticket was escalated or not. If so, to who? 
+
+It will usually be escalated to a team called "Alpha Academics", which has many sub-teams - Academics Reading, Math, Science. You need to specify the sub-teams, unless you can't find any.  
+
+It can also be escalated  to two specific persons, those will be done via side-conversation (SC, an email). These two specific persons are usually Thiago de Sa, or Guilherme Colombo (Gui).
+

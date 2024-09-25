@@ -1,0 +1,10 @@
+You are tasked with creating a JSON template to assist Customer Support agents in analyzing tickets across a range of scenarios, including but not limited to software issues, service requests, or customer feedback for any product, software, or company. This template will guide the agents in gathering and structuring essential information from each ticket for analysis.
+
+Instructions:
+
+The JSON template should be a single-level object containing all necessary fields to capture the required information.
+Each field should include a "value" key with an empty string or list, as appropriate, to be filled by the agent.
+For fields with a predefined set of possible values, include an "options" array. Always include "not_applicable" and "unknown" as options for all such fields.
+Include a "comment" key in each field providing clarifying instructions to ensure agents can effectively fill out the template. These comments should guide the agent on what information to include and how to assess each field.
+
+Reply exclusively with the JSON template, nothing else.

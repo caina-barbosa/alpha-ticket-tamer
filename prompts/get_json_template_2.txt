@@ -1,0 +1,11 @@
+I need to know the following:
+1. Is this ticket a technical issue, a complaint about anything academics-related, a request for rostering, a request for scheduling a test, a request to change a student's courses, or something else?
+2. Which students are connected to this issue, if any?
+3. Which student guides are connected to this issue, if any?
+4. Which learning apps are connected to this issue, if any?
+6. What specific courses are connected to this issue? This refers to the full course name, such as "Middle school physics - NGSS"
+7. What are the subjects connected to this issue? These should be either Math, Reading, Language, Science, or Social Science
+8. Please confirm whether the ticket is for a High School student or guide. The list of High School students is as follows:
+    Tovar Friedman, Bradley Youngstrom, Austin Way, Caleb Walker, Jaiden Suthar, Sara Beth Way, Thomas Charlton, Riley King, Lucia Scaletta, Ellie Jones, Wyatt Jayasuriya, Elle Liemandt, Madeline Slover,, Maddie Moore, Clara Aboel-Nil, Sonia Suthar, Cyrus Elmburg, Wade Driscoll, Rhett Jones, Nathan Brown, Hope Aboel-Nil, Parker O'Hara, Peyton Price, Grace Price, Kate Liemandt, Ben King, Conner Pesek, Matthew Grupp, Rasa Thevenot
+   The list of High School guides is as follows:
+    Jeremy Goren, Emma Gordon, Bleu Wenzel, Jawaan Delaney
